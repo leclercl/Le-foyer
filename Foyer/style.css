@@ -1,0 +1,144 @@
+body {
+	background-color: white;
+	margin:0px;
+}
+
+#Logo{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.menuH{
+	display: flex;
+	align-items: center; 
+	justify-content: space-between;
+	background-image: url("image/bois.jpg");
+}
+
+.flexbox {
+	display: flex;
+	justify-content: space-between;
+}
+
+.my-dropdown {
+	padding: 0px 10px;
+}
+
+.inscription{
+	margin-right: 20px;
+}
+
+.ID{
+	margin-left: 5px;
+
+}
+
+ .banner {
+ 	background-image: url("image/coffee-shop.jpg");
+ 	background-size: cover;
+ 	box-shadow: 0px 0px 40px 0px white;
+ 	
+ 	background-position: center;
+ 	height:575px;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: space-around;
+ 	box-shadow: inset 0px 0px 40px 0px white;
+}
+
+.slogan { 
+	font-size: 20px;
+	font-style: italic;
+	 }
+
+.btn-black { 
+  background-image:url("image/bois.jpg");
+  border-radius: 10px ; 
+  color: white;
+  padding: 40px 40px;
+  opacity: 0.9;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.btn-black:hover {
+	opacity: 0.5;
+	color: white;
+	text-decoration: none;
+}
+
+.bottom-banner { 
+	display: flex;
+	color: white;
+	background-image: url("image/bois.jpg");
+  	justify-content: space-between;
+	padding-top: 10px;
+ }
+
+.kbs{
+	width:80px;
+	height: 30px;
+}
+
+.social-media{
+	margin-right: 40px;
+	color: white;
+}
+
+.kedger{
+	margin-left: 40px;
+}
+
+.link-white{
+	color: white;
+}
+
+.link-white:hover{
+	color:white;
+	opacity:0.6;
+	text-decoration: none;
+}
+
+.fb{
+	color: #4267b2;
+	font-size:32px;
+}
+
+.inst{
+	color:#b23487;
+	font-size:32px;
+}
+
+.title{
+	color:white;
+}
+
+.logofoyer{
+	display: flex;
+	align-items: center;
+}
+
+.icon {
+	display: flex;
+	justify-content: space-between;
+	margin: 150px;
+
+}
+
+.text-icon {
+	display: flex;
+	justify-content: space-between;
+	color: grey;
+	font-size: 48px; 
+}
+
+p { 
+font-size: 32px;
+ }
+
+ .services {
+ 	width: 80px;
+ 	height: 80px;
+ 	padding: 10px;
+ }
